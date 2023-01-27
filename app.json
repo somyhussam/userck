@@ -2,7 +2,7 @@
     "name": "userbot",
     "description": "User bot for telegram !",
     "stack": "container",
-    "repository": "https://github.com/somyhussam/userck",
+    "repository": "https://github.com/teamalomda",
     "keywords": [
         "python",
         "chatbot",
@@ -10,15 +10,30 @@
     ],
     "website": "https://github.com/teamalomda",
     "env": {
-        "APP-NAME": {
+        "APP_ID": {
+            "description": "ايبي ايدي",
+            "value": "",
+            "required": true
+        },
+        "APP_HASH": {
             "description": "ايبي هاش",
             "value": "",
             "required": true
-
-        "BOT_TOKEN": {
+        },
+        "TERMUX": {
+            "description": "كود تيرمكس",
+            "value": "",
+            "required": true
+        },
+        "TOKEN": {
             "description": "توكن االبوت",
             "value": "",
             "required": true
         },
+        "BOT_USERNAME": {
+            "description": "يوزر البوت بدون ـ@ـ",
+            "value": "",
+            "required": true
+        }
     }
 }

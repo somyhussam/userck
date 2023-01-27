@@ -2,7 +2,7 @@
     "name": "userbot",
     "description": "User bot for telegram !",
     "stack": "container",
-    "repository": "https://github.com/teamalomda",
+    "repository": "https://github.com/somyhussam/userck",
     "keywords": [
         "python",
         "chatbot",
